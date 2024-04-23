@@ -1,0 +1,14 @@
+
+version: 2
+
+models:
+  - name: raw
+  database: northwind_raw
+  Schema: public
+    description: "categories_raw data"
+    tables:
+      - name: categories_raw
+      - name: employees_raw
+  
+  
+          
